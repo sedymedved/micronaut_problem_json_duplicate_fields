@@ -29,7 +29,7 @@ class ErrorDemonstrationTest {
     public void test1(String regexp) {
         var response = "";
         try {
-            client.toBlocking().retrieve("?par1=ab&par2=10&p");
+            client.toBlocking().retrieve("?par1=ab&par2=10");
             Assertions.fail();
 
         } catch (HttpClientException e) {

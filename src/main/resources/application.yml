@@ -5,3 +5,6 @@ netty:
   default:
     allocator:
       max-order: 3
+problem:
+  enabled: true
+  stack-trace: false  # Toggling this to true fixes this issue.
